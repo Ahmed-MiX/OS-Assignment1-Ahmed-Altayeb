@@ -212,16 +212,19 @@
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**:
+### Entry 6 - [October 10, 2026, 10:45 PM]
+**What I did**: Answer Reflection and Technical questions
 
 **Details**:
+- Answer Reflection questions
+- Answer Technical questions
+- provide a summury of my knowledge
 
-**Challenges**:
+**Challenges**: it was a little difficult to express meanings in english
 
-**Solution**:
+**Solution**: I use terms and concepts mentioned in this assignment
 
-**Time spent**:
+**Time spent**: 1.5 hours
 
 ---
 
@@ -255,7 +258,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I learned the importance of multithreading in programing and how it make you take advantage of your resources. I learned how to create and run threads using (Runnable) interface. I learned how to use (Thread.start) to start thread execution. I learned how to use (Thread.sleep) to simulate the actual time for process to execute. I learned how (Thread.join) stop main process until current thread finishes.
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -263,7 +266,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I think the most challenging part is feature 3. It was hard because it take so much time from me for thinking about a good way to implement it. I search for 3 methods to implementatiob and choose the one I think is the best. Also it was difficult to find a good way to build the process table. So I tried list and it was perfect.
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -271,7 +274,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I have faced some challenges while doing this assignment. But first I tried to read and understande the whole README.md file twice. Then I read the whole code line by line and search for each line that look strange to me. Then I tried to run the code to see the raw output. After that I was able to add and test each feature in the code.
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -279,7 +282,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+Multithreading in so useful in real life. It make applications faster and more responsive. For example in web browser multithreads load multi web pages. And inside a single web page some threads can load videos and some for sounds. Using mulitithreading make sure all processes have fair cpu time.
 
 ### Optional: What would you like to learn more about?
 
@@ -311,7 +314,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+Process is independent program with its own memory. But thread is smaller task that run inside a process and share its memory. We use thread because creat new threads is much faster and require less memory. In our program we created virtual process using (Process) class. But we execute it using thread in (addProcessToQueue()) method with line (Thread thread = new Thread(process)).
 
 ## Question 2: Ready Queue Behavior
 
@@ -323,15 +326,21 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+If process does not finish whitin time quantum it yields the cpu and go back to the end of ready queue. This is very important for fairness so no long single process take all cpu time. In my program process P13 have a large burst time of 9882ms so it was re-queued 2 times.
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+ ▶ P13 executing quantum [4000ms] 
+  ⚡ Quantum progress: [███████████████] 100%
+  ⏸ P13 completed quantum 4000ms │ Overall progress: [████████████████░░░░] 80%
+     Remaining time: 1882ms
+  ↻ P13 yields CPU for context switch
+
+  ➕ P13 added to ready queue │ Burst time: 9882ms
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+The output show that process P13 finished time quantum but still had remaining time so it print (yields cpu for context switch).
 
 ## Question 3: Thread Lifecycle
 
@@ -341,15 +350,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: P1 was new when we creat it using (new Thread(process)) inside (addProcessToQueue()).
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: P1 was runnable when it was waiting inside the (processQueue).
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: P1 was running when the scheduler calls (currentThread.start()).
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: P1 was in waiting state when we call (Thread.sleep(stepTime)).
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: P1 terminated when  (remainingTime) reaches zero and its (run()) method ends.
 
 ## Question 4: Real-World Applications
 
@@ -359,32 +368,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): Operating System Scheduler
 
 **Description**:
-[Describe the real-world scenario.]
+Windows or linux needs to run many programs at the same time (like Word, Chrome, and Zoom) on a single CPU core.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+It provides fairness and responsiveness. Each program gets a small time slice so the computer feels fast and not freeze even if one program is heavy.
 
-### Example 2: [Name of application/scenario]
+### Example 2: Network Router
 
 **Description**:
-[Describe the real-world scenario or application.]
+A home Wi-Fi router receives data packets from multiple connected phones and laptops.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+It make sure that if one person is downloading a big file he will not block another person who is just trying to open a small webpageand that keep the network fair for everyone.
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1. Multithreading key concepts.
+2. How to share cpu time using Round-Robin.
+3. Real applications of Multithreading.
 
 **Concepts I need to study more:**
-1.
-2.
+1. More application of multithreading.
+2. How to implement muitithreading in lower levels.
 
 ---
 
