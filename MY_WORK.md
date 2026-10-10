@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | Ahmed Jamal Aldeen Altayeb |
+| **Student ID** | 445052779 |
+| **University Email** | 445052779@std.psau.edu.sa |
+| **GitHub Username** | Ahmed-MiX |
+| **Repository Link** | https://github.com/Ahmed-MiX/OS-Assignment1-Ahmed-Altayeb |
  
 ---
 
@@ -129,29 +129,37 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [October 9, 2026, 3:00 PM]
+**What I did**: fork repository, set up vs code, set up student ID in code
 
 **Details**:
+- fork starter repository and rename it
+- change student ID in code (line 150)
+- run code for first time
+-first commit (Set my student ID: 445052779)
 
-**Challenges**:
+**Challenges**: I had hard time trying to change JDK version
 
-**Solution**:
+**Solution**: uninstall all JDK versions in my computer and install new one (JDK 17.0.20.1)
 
-**Time spent**:
+**Time spent**: 1 hour
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [October 10, 2026, 4:00 PM]
+**What I did**: add student information in MY_WORK.md, andimplement Feature 1 - Add Process Priority 
 
 **Details**:
+- add full student information to MY_WORK.md
+- implement Feature 1 (Add Process Priority) 
+- document all code additions
+- second commit (Feature 1: Added priority field to Process class)
 
-**Challenges**:
+**Challenges**: I have so many problems showing output in VS code
 
-**Solution**:
+**Solution**: I tried Intellij IDEA and it was perfect
 
-**Time spent**:
+**Time spent**: 2 hours
 
 ---
 
