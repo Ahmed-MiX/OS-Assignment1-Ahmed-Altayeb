@@ -136,7 +136,7 @@
 - fork starter repository and rename it
 - change student ID in code (line 150)
 - run code for first time
--first commit (Set my student ID: 445052779)
+- first commit (Set my student ID: 445052779)
 
 **Challenges**: I had hard time trying to change JDK version
 
@@ -146,8 +146,8 @@
 
 ---
 
-### Entry 2 - [October 10, 2026, 4:00 PM]
-**What I did**: add student information in MY_WORK.md, andimplement Feature 1 - Add Process Priority 
+### Entry 2 - [October 10, 2026, 6:00 PM]
+**What I did**: add student information in MY_WORK.md, and implement Feature 1 - (Add Process Priority) 
 
 **Details**:
 - add full student information to MY_WORK.md
@@ -163,7 +163,7 @@
 
 ---
 
-### Entry 3 - [October 10, 2026, 4:00 PM]
+### Entry 3 - [October 10, 2026, 6:30 PM]
 **What I did**: implement Feature 2 - (Count Context Switches), fix order of documentation and commit history
 
 **Details**:
@@ -180,16 +180,20 @@
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 4 - [October 10, 2026, 7:30 PM]
+**What I did**: implement Feature 3 - (Track Waiting Time)
 
 **Details**:
+- implement the code Feature 3 - (Track Waiting Time)
+- try a number of solutions
+- document all code additions
+- foruth commit (Feature 3: Added waiting time tracking and summary table)
 
-**Challenges**:
+**Challenges**: it was the hardest feature to implement
 
-**Solution**:
+**Solution**: looking for and understanding a number of similar implementations to understand how to apply it to our program
 
-**Time spent**:
+**Time spent**: 1 hour
 
 ---
 
