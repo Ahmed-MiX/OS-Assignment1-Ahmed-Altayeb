@@ -163,16 +163,20 @@
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 10, 2026, 4:00 PM]
+**What I did**: implement Feature 2 - (Count Context Switches), fix order of documentation and commit history
 
 **Details**:
+- implement Feature 2 - (Count Context Switches)
+- document all code additions
+- fix some documentation problems and missing commits
+- third commit (Feature 2: Implemented context switch counter)
 
-**Challenges**:
+**Challenges**: separate between development commits and documentation commits
 
-**Solution**:
+**Solution**: apply different commits for documentation and others for code implementation
 
-**Time spent**:
+**Time spent**: 30 minutes
 
 ---
 
