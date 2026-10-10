@@ -142,7 +142,7 @@
 
 **Solution**: uninstall all JDK versions in my computer and install new one (JDK 17.0.20.1)
 
-**Time spent**: 1 hour
+**Time spent**: 1 hour 
 
 ---
 
