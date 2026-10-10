@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -347,11 +348,11 @@ public class SchedulerSimulation {
 
     // Method to print a summary table of all processes with their burst time, waiting time, and turnaround time
     public static void printSummaryTable(List<Process> processes) {
-    System.out.println(String.format("%-10s %-12s %-14s %-16s",
+    System.out.println(String.format(Locale.US, "%-10s %-12s %-14s %-16s",
             "Process", "Burst (ms)", "Waiting (ms)", "Turnaround (ms)"));
     System.out.println("-----------------------------------------------------------------");
     for (Process p : processes) {
-        System.out.println(String.format("%-10s %-12d %-14d %-16d",
+        System.out.println(String.format(Locale.US, "%-10s %-12d %-14d %-16d",
                 p.getName(), p.getBurstTime(), p.getWaitingTime(), p.getTurnaroundTime()));
     }
     }

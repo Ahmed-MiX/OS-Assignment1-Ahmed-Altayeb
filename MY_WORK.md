@@ -197,16 +197,18 @@
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 5 - [October 10, 2026, 9:15 PM]
+**What I did**: final session to review and debug the code as whole
 
 **Details**:
+- review main functionalities in the code
+- fix some bugs in implementation
 
-**Challenges**:
+**Challenges**: the function (String.format) was printing numbers in summary table in arabic format and in reversed order
 
-**Solution**:
+**Solution**: import (local) library (import java.util.Locale;) and use (Locale.US) as parameter for (String.format) function
 
-**Time spent**:
+**Time spent**: 1.5 hour
 
 ---
 
