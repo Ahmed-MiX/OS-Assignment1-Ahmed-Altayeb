@@ -286,7 +286,7 @@ public class SchedulerSimulation {
                           "╚════════════════════════════════════════════════════════════════════════════════╝" + 
                           Colors.RESET + "\n");
 
-        System.out.println("Total context switches: " + contextSwitchCount);
+        System.out.println("Total context switches: " + contextSwitchCount); // Print the total number of context switches that occurred during the simulation
     }
     
     // Method to add a process to the queue and map, while printing a "ready" message
